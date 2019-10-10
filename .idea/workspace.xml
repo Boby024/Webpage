@@ -4,12 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/index.html" line="4" mnemonic="7" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cc72d7cd-d3a8-4084-a381-48f6f8599f81" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
-    </list>
+    <list default="true" id="cc72d7cd-d3a8-4084-a381-48f6f8599f81" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -190,16 +185,15 @@
       <workItem from="1556449822462" duration="326000" />
       <workItem from="1556450434309" duration="9777000" />
       <workItem from="1556559228230" duration="2386000" />
-      <workItem from="1564669853273" duration="8289000" />
+      <workItem from="1564669853273" duration="8887000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20778000" />
+    <option name="totallyTimeSpent" value="21376000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1513" height="1013" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.09896907" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
