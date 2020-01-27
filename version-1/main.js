@@ -36,38 +36,9 @@ function toggleEl(selbst) {
     }
     document.getElementById("elementT").innerHTML += beschreibung;
 }
+function tg() {
 
-function sendMail() {
-
-    let email = document.getElementById("exampleFormControlInput1").value.trim();
-    let text = document.getElementById("exampleFormControlTextarea1").value.trim();
-    console.log(email);
-    console.log(text);
-    let subject = "from my page github ";
-    let data = {email: email,text:text};
-
-    /*if(email && text){
-         Email.send({
-            Host : "smtp.yourisp.com",
-            Username : "username",
-            Password : "password",
-            To : 'william.kana-tsoplefack@stud.uni-due.de',
-            From : email,
-            Subject : subject,
-            Body : text
-         }).then(
-                message => alert(message)
-
-                 );
-         //window.location.href = "index.html";
-    }else {
-        alert("Fill the fields");
-    }*/
-
-    window.location.href = "index.html";
 }
-
-// document.querySelector('#sendMe').addEventListener('click', sendMail);
 document.addEventListener("DOMContentLoaded",()=>{
     (function($) { $(document).ready(function(){
             $('#beschreibung-1, #beschreibung-2, #beschreibung-3').hide();
@@ -77,8 +48,6 @@ document.addEventListener("DOMContentLoaded",()=>{
                 return false;
                 });
        }); })(jQuery);
-
-    //console.log(document.querySelector('#sendMe') );
 });
 
 /*
