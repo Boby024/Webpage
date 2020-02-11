@@ -14,13 +14,23 @@
 <body  class="d-flex flex-column h-100">
 <div class=" container entier">
     <header>
-       <div id="containerHeader">
-            <div><a href="index.html"><img class="imageRound" src="images/homeIcon.jpg" width="80px" height="80px" ></a></div>
-            <div class="linkPage"><a href="about.html" title="about"> Lebenslauf</a></div>
-            <div class="linkPage"><a href="contact.html" title="contact">contact me</a></div>
-        </div>
-    </header>
 
+        <div class="row"  >
+            <div class="col-sm-3"><a href="index.html"> <img src="images/homeIcon.jpg" width="80" height="90"></a></div>
+            <div class="col-sm-8" >
+                <div class="row"  >
+                    <div class="col-sm-3"><a href="about.html" title="about">About me</a></div>
+                    <!--
+                            <div class="col-sm-3"><a href="https://apple.com" title="vision">Vision</a></div>
+                           <div class="col-sm-3"> <a href="https://facebook.com" title="news">News</a></div>
+                            -->
+                    <!--<div class="col-sm-3"><a href="contact.html" title="contact">Contact</a></div> -->
+
+                </div>
+            </div>
+        </div>
+
+    </header>
     <section>
         <div class="color_contact">
 
@@ -31,7 +41,7 @@
 
                 <div class="form-group">
                     <label for="exampleFormControlTextarea1">Example textarea</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" required>the action "senden" doesn't work now :) please go to "Lebenslauf" page to see my email adresse</textarea>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" required>the action "senden" doesn't work now :) please go to "about me" page to see my email adresse</textarea>
                 </div>
                 <!--<input type="submit" value="submit" /> -->
                 <button id="sendMe" class="sendMe" onclick="sendMail()">senden</button>
