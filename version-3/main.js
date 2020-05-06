@@ -1,15 +1,6 @@
 
 let projects = [
     {
-        "titel":"+ projectfunder",
-        "beschreibung":"Zum Anzeigen von Projekten an möglichen Funder dienst diese Web-Applikation"+
-            "<p>Kurz gesagt, Der Nutzer kann sein Projekt online einlegen und dieses könnte von anderen unterstützt werden</p>"+
-            "<p>Mögliche Action: spenden, kommentieren,</p>"+
-            "<p>Mögliche Action Bei Profil Seite: persönliche Infos werden gesammelt, und sogar photo uploading</p>"+
-            "<p>Ein grober Überblick über möglichen Aktionen über <a href=\"https://github.com/Boby024/project_funder\" target=\"_blank\">Github-Repository</a></p> " +
-            "<p><strong>Genutzte Technologien:</strong> Angular 9, Spring boot 2.2.6, PostgreSQL</p>"
-    },
-    {
         "titel":"+ Caesar-Converter-File: JavaScript and Flask",
         "beschreibung":"Zum Verschlüsseln (mit Key) eines Texts oder File (.txt extension) mit Caeser-Encryption"+
             "<p>using Drag and Drog <br>oder the standart input methode from Html5</p>"+
@@ -121,7 +112,7 @@ function showAllprojects(){
 document.addEventListener("DOMContentLoaded",()=>{
     this.showAllprojects();
     (function($) { $(document).ready(function(){
-            $('#beschreibung-0, #beschreibung-1, #beschreibung-2, #beschreibung-3, #beschreibung-4').hide();
+            $('#beschreibung-0, #beschreibung-1, #beschreibung-2, #beschreibung-3').hide();
             $('.elementT').click(function(){
                 $(this).next().slideToggle();
                 $(this).toggleClass("afterToggle");
