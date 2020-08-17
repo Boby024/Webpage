@@ -1,7 +1,12 @@
 
 let projects = [
     {
-        "titel":"+ projectfunder",
+        "titel": "+ Bachelor Thesis: Flask, PostgreSQL und Angular 8",
+        "beschreibung": "TweetInfo: A system to help Social Media Users spot fake news and hate speech by showing relevant Meta-information"+
+            "<p>Hier das private <a href=\"https://github.com/Gautamshahi/WilliamsThesis\" target=\"_blank\">Github-Repository</a></p> "
+    },
+    {
+        "titel":"+ projectfunder: Spring boot 2.2.6, PostgreSQL und Angular 9",
         "beschreibung":"Zum Anzeigen von Projekten an möglichen Funder dienst diese Web-Applikation"+
             "<p>Kurz gesagt, Der Nutzer kann sein Projekt online einlegen und dieses könnte von anderen unterstützt werden</p>"+
             "<p>Mögliche Action: spenden, kommentieren,</p>"+
@@ -17,7 +22,7 @@ let projects = [
             "<p>File unter 1 MB => gesandt mit REST-API <br>JavaScript checkt, if File (.txt) ist ; und auch Html5</p>"+
             "<p>Hier das <a href=\"https://github.com/Boby024/Caesar-Converter-File\" target=\"_blank\">Github-Repository</a></p> "
     },
-    {"titel":"+ Erstellung einer Buecherverwaltung: Flask + Angular",
+    {"titel":"+ Erstellung einer Buecherverwaltung: Flask, MySQL und Angular 8",
     "beschreibung":" Im Rahmen dieser Übungsaufgabe solle ich eine Webanwendung erstellen, die eine Bücherverwaltung realisiert.\n" +
         "                Benutzer sollen sich an einem Online-System anmelden und über eine Weboberfläche einen Bücherkatalog einsehen,\n" +
         "                verwalten sowie Bücher ausleihen können. Darüber hinaus soll das System eine geeignete REST-Schnittstelle zur Verfügung stellen,\n" +
@@ -120,7 +125,7 @@ function showAllprojects(){
 document.addEventListener("DOMContentLoaded",()=>{
     this.showAllprojects();
     (function($) { $(document).ready(function(){
-            $('#beschreibung-0, #beschreibung-1, #beschreibung-2, #beschreibung-3, #beschreibung-4').hide();
+            $('#beschreibung-0, #beschreibung-1, #beschreibung-2, #beschreibung-3, #beschreibung-4, #beschreibung-5').hide();
             $('.elementT').click(function(){
                 $(this).next().slideToggle();
                 $(this).toggleClass("afterToggle");
