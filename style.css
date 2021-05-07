@@ -43,7 +43,7 @@ body
 
 }
 .centerInhalt{
-    text-align: left;
+    margin: auto;
 }
 .color_contact{
     margin: 100px;

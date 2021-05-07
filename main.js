@@ -60,8 +60,19 @@ let projects = [
             "                <p><strong>Kurzer Hinweis:</strong> Auf diesem Projekt wurde mehr Wert auf Funktionaliäten der Anwendung als das Aussehen :) gelegt</p>\n" +
             "                <p>So sieht des Projekts <a href=\"images/player_2.jpg\" target=\"_blank\">Bild</a> aus </p>\n" +
             "                <p>Hier das <a href=\"https://github.com/Boby024/Musik_player_with_javafx\" target=\"_blank\">Github-Repository</a></p>"
+    },
+    {
+        "titel":"+ Other projects",
+        "beschreibung":"You can see more projects here <a href=\"https://github.com/Boby024\" target=\"_blank\">Github-Repository</a>"
     }
 ];
+
+
+
+/*<div  class="centerInhalt"><p><strong>Aktuel: Introduction to API Gateway OAuth 2.0 </strong></p>
+                    Authenticate and Authorize APIs <br>
+                    To test this process, I'm going to use it in Spring Boot and also try NoSQL (here: MongoDB)
+</div>*/
 
 function toggleEl(selbst) {
 
@@ -125,7 +136,7 @@ function showAllprojects(){
 document.addEventListener("DOMContentLoaded",()=>{
     this.showAllprojects();
     (function($) { $(document).ready(function(){
-            $('#beschreibung-0, #beschreibung-1, #beschreibung-2, #beschreibung-3, #beschreibung-4, #beschreibung-5').hide();
+            $('#beschreibung-0, #beschreibung-1, #beschreibung-2, #beschreibung-3, #beschreibung-4, #beschreibung-5, #beschreibung-6').hide();
             $('.elementT').click(function(){
                 $(this).next().slideToggle();
                 $(this).toggleClass("afterToggle");
