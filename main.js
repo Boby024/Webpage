@@ -13,7 +13,7 @@ let projects = [
             "<p>Mögliche Action Bei Profil Seite: persönliche Infos werden gesammelt, und sogar photo uploading</p>"+
             "<p>Ein grober Überblick über möglichen Aktionen über <a href=\"https://github.com/Boby024/project_funder\" target=\"_blank\">Github-Repository</a></p> " +
             "<p><strong>Genutzte Technologien:</strong> Angular 9, Spring boot 2.2.6, PostgreSQL</p>" +
-            "<p>User Interface: So sieht das aus <a href=\"images/projectfunder_screenshots\" target=\"_blank\">Bilder Projectfunder</a></p> "
+            "<p>User Interface: So sieht das aus <a href=\"../images/projectfunder_screenshots\" target=\"_blank\">Bilder Projectfunder</a></p> "
     },
     {
         "titel":"+ Caesar-Converter-File: JavaScript and Flask",
