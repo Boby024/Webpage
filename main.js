@@ -1,6 +1,11 @@
 
 let projects = [
     {
+        "titel": "+ Backend Project, called GetRoof",
+        "beschreibung" : "This project uses spring boot and implements also spring security for the whole project. <br> "
+        + " Have a look at it using this link: <a href=\"https://bitbucket.org/william4624/getroof-backend/src/main\" target=\"_blank\">Bitbucket-Repository</a></p>"
+    },
+    {
         "titel": "+ Bachelor Thesis: Flask, PostgreSQL und Angular 8",
         "beschreibung": "TweetInfo: A system to help Social Media Users spot fake news and hate speech by showing relevant Meta-information"+
             "<p>Hier das private <a href=\"https://github.com/Gautamshahi/WilliamsThesis\" target=\"_blank\">Github-Repository</a></p> "
@@ -137,7 +142,7 @@ function showAllprojects(){
 document.addEventListener("DOMContentLoaded",()=>{
     this.showAllprojects();
     (function($) { $(document).ready(function(){
-            $('#beschreibung-0, #beschreibung-1, #beschreibung-2, #beschreibung-3, #beschreibung-4, #beschreibung-5, #beschreibung-6').hide();
+            $('#beschreibung-0, #beschreibung-1, #beschreibung-2, #beschreibung-3, #beschreibung-4, #beschreibung-5, #beschreibung-6, #beschreibung-7').hide();
             $('.elementT').click(function(){
                 $(this).next().slideToggle();
                 $(this).toggleClass("afterToggle");
