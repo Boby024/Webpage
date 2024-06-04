@@ -124,6 +124,26 @@ footer
     margin-right:  10px;
 }
 
+#fields_{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: auto;
+    background-color: lightgrey;
+    border: 2px solid black;
+    border-radius: 7px;
+    /* margin: auto; */
+}
+
+#fields_ .fields_global {
+    margin-top: 20px;
+}
+#fields_ .fields_title {
+    font-weight: bold;
+    color: blue;
+}
+
+
 
 #toggleProject{
     display: flex;
