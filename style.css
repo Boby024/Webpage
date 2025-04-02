@@ -60,6 +60,24 @@ body
     border-radius: 10px;
 }
 .cvStyle{
+
+    .period_work_titel {
+        display: flex; gap: 10px;
+        margin-top: 30px;
+    }
+
+    .bold_text_color {
+        font-weight: bold;
+    }
+
+    .location_text_color {
+        /* color: gray; */
+        font-weight: bold;
+    }
+
+    ul.b {
+        list-style-type: square;
+    }
 }
 /* for about.html */
 
